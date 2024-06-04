@@ -1,0 +1,149 @@
+.home-main-conatiner{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 1% auto;
+}
+.home-first{
+    height: 70vh;
+    align-items: center;
+}
+.home-first-left{
+    width: 40%;
+    margin: 2% 0;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: center;
+}
+.home-first-right{
+   position: relative;
+   width: 60%;
+   margin: 2% 0;
+   height: 90%;
+}
+.layer-image{
+
+}
+.image-group{
+    position: absolute;
+    top: 8%;
+    left: 10%;
+    display: flex;
+    justify-content: center;
+}
+.image-share{
+    position: absolute;
+    left: 60%;
+    top: 96%;
+    display: flex;
+    justify-content: center;
+}
+.share{
+    left: 10%;
+    top: 55%;
+   
+}
+
+.home-first-left{
+    display: flex;
+    flex-direction: column;
+    
+}
+.explore-btn{
+    background-color: #fff;
+    padding: 64px, 0px, 64px, 0px;
+    color: #F85E9F;
+    font-size: 0.7rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 140px;
+    height: 30px;
+    border-radius: 18px;
+    padding: 4px;
+    box-shadow: 0 2px 5px #eee;
+
+}
+.work-img{
+    width: 16px;
+}
+.travel-h1{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: left;
+    width: 48%;
+}
+.content{
+    font-size: 0.75rem;
+    color: #c1b8b8;
+    font-weight: 600;
+    text-align: left;
+    width: 80%;
+}
+.home-second{
+    display: flex;
+    justify-content: space-between;
+    margin: 4% 0;
+}
+.home-second-img{
+    width: 124px;
+    height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* services */
+.services-container{
+    display: flex;
+    margin: 4% 0;
+}
+.services-text{
+    width: 25%;
+}
+.services-text p{
+    color:#F85E9F;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: left;
+}
+.services-text h3{
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: left;
+}
+.services-card{
+    display: flex;
+}
+.services-card-single{
+    background-color: #fff;
+    box-shadow: 0 2px 5px #d7d5d5;
+    padding: 20px;
+    border-radius: 8px;
+    width: 210px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 3%;
+}
+
+.services-card-single h3{
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: left;
+}
+.services-card-single p{
+    color: #b1b0bd;
+    font-size: 0.75rem;
+    font-weight: 500;
+    width: 80%;
+    text-align: left;
+    margin: 8px 0;
+    text-align: center;
+}
