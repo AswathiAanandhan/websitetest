@@ -53,3 +53,15 @@
     font-size: 0.8rem !important;
     font-weight: 600 !important;
 }
+
+@media only screen and (max-width:450px){
+    .footer-container{
+        flex-wrap: wrap;
+    }
+    .footer-container-one{
+       width: 50%;
+    }
+    .footer-container-two{
+        width: 50%;
+    }
+}
